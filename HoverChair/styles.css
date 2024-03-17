@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f4f4f4; /* Subdued background color */
+    padding: 80px 20px; /* Padding around the hero section */
+    text-align: center; /* Center-align content */
+    min-height: 78vh; /* Set minimum height to full viewport height */
+  }
+
+  .hero-image {
+    width: 150px; /* Adjust image width as needed */
+    border-radius: 50%; /* Make image round */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add soft shadow */
+    margin-bottom: 30px; /* Space below the image */
+  }
+  
+  .hero-heading {
+    font-family: 'Rubik', sans-serif; /* Set font to Rubik */
+    font-size: 2.5rem; /* Large font size for main heading */
+    margin-bottom: 20px; /* Space below the main heading */
+    color: #333; /* Dark text color */
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem; /* Slightly smaller font size for subheading */
+    margin-bottom: 20px; /* Space below the subheading */
+    color: #84412f; /* Medium-dark text color */
+  }
+  
+  .hero-description {
+    font-size: 1rem; /* Normal font size for description */
+    margin-bottom: 30px; /* Space below the description */
+    color: #777; /* Medium text color */
+    line-height: 1.4;
+  }
+  
+  .cta-button {
+    display: inline-block; /* Make the button inline */
+    padding: 12px 24px; /* Padding inside the button */
+    background-color: #555555; /* Green button color */
+    color: #FFFFFF; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 26px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .cta-button:hover {
+    background-color: #323030; /* Darker green on hover */
+  }
+  
