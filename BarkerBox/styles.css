@@ -1,0 +1,68 @@
+/* Body styling */
+body {
+    background-color: #f0f0f0; /* Light body background */
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* White background for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-img{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #471869;
+}
+
+/* Heading styling */
+.heading {
+    color: #471869; /* Purple color for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Offer paragraph styling */
+.offer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Email input styling */
+.email-input, .name-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.submit-button {
+    background-color: #471869; /* Purple color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.submit-button:hover {
+    background-color: #5e2d91; /* Darker purple on hover */
+}
