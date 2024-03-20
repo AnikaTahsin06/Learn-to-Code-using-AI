@@ -18,8 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       confirmationMessage.style.display = "block";
 
       rsvpForm.reset();
-    }
-    if (attendance === "no") {
+    } else if (attendance === "no") {
       // If attending, display a party emoji and a positive message
       confirmationMessage.innerHTML = "😞 We will miss you at the GIF Gala";
     }
