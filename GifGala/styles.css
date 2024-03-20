@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h3 {
+    color: #00afb9;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #f07167;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Description section styles */
+.description {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* RSVP form section styles */
+.rsvp-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #00afb9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Confirmation message styles */
+#confirmationMessage {
+    display: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* Hide confirmation message initially */
+.hidden {
+    display: none;
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .description, .rsvp-form {
+        padding: 15px;
+    }
+}
